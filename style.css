@@ -1,52 +1,57 @@
-body{
+/* Global Styles */
+body {
     margin: 0;
-    background: linear-gradient(to left bottom,
-    lightblue, lightgreen, lightblue);
+    background: linear-gradient(to left bottom, lightblue, lightgreen, lightblue);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: monospace;
 }
-.container{
-    background-color: rgba(255, 255, 255, .3);
+
+/* Container Styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
-    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     width: 85%;
     text-align: center;
     color: black;
 }
 
-.heading{
+/* Heading Styles */
+.heading {
     font-size: 35px;
     font-weight: 200;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 1px rgba(0,0,0,.3);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
     letter-spacing: 2px;
 }
 
-.joke{
+/* Joke Text Styles */
+.joke {
     font-size: 25px;
     font-weight: 500;
     margin: 40px;
 }
 
-.btn{
+/* Button Styles */
+.btn {
     font-size: 18px;
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
-    background-color: rgba(255, 255, 255, .3);
-    border-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     width: 300px;
     color: black;
 }
-.btn:hover{
-    background-color: rgba(255, 255, 255, .5);
-    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
     transition: all 300ms ease;
 }
-
